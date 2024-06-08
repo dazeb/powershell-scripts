@@ -57,43 +57,7 @@ element-copier/
 
     The script will create the `element-copier` directory with all the necessary files and folders for your Chrome extension project.
 
-### Script Contents 📜
-
-Here is the PowerShell script (`setup-chrome-extension.ps1`):
-
-```powershell
-# Create directories
-New-Item -ItemType Directory -Path "element-copier/popup"
-New-Item -ItemType Directory -Path "element-copier/icons"
-New-Item -ItemType Directory -Path "element-copier/scripts"
-New-Item -ItemType Directory -Path "element-copier/styles"
-
-# Create files in popup directory
-New-Item -ItemType File -Path "element-copier/popup/popup.html"
-New-Item -ItemType File -Path "element-copier/popup/popup.css"
-New-Item -ItemType File -Path "element-copier/popup/popup.js"
-
-# Create files in icons directory
-New-Item -ItemType File -Path "element-copier/icons/icon16.png"
-New-Item -ItemType File -Path "element-copier/icons/icon48.png"
-New-Item -ItemType File -Path "element-copier/icons/icon128.png"
-
-# Create files in scripts directory
-New-Item -ItemType File -Path "element-copier/scripts/background.js"
-New-Item -ItemType File -Path "element-copier/scripts/content.js"
-New-Item -ItemType File -Path "element-copier/scripts/utils.js"
-
-# Create files in styles directory
-New-Item -ItemType File -Path "element-copier/styles/tailwind.css"
-New-Item -ItemType File -Path "element-copier/styles/output.css"
-
-# Create other root-level files
-New-Item -ItemType File -Path "element-copier/manifest.json"
-New-Item -ItemType File -Path "element-copier/tailwind.config.js"
-New-Item -ItemType File -Path "element-copier/package.json"
-New-Item -ItemType File -Path "element-copier/.gitignore"
-New-Item -ItemType File -Path "element-copier/README.md"
-```
+---
 
 ### Additional Information ℹ️
 
