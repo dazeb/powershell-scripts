@@ -1,10 +1,6 @@
-Sure! Here's a simple GitHub-compatible README for your "Powershell Scripts" repository, including explanations for the setup script and using emojis for a friendly touch.
-
----
-
 # PowerShell Scripts 📜⚙️
 
-Welcome to the **PowerShell Scripts** repository! This collection includes various PowerShell scripts for different tasks. Below, you'll find the documentation for a script that sets up a file and folder structure for a Chrome extension project.
+Welcome to the **PowerShell Scripts** repository! This collection includes various PowerShell scripts for different tasks. Below, you'll find example documentation for a script that sets up a file and folder structure for a Chrome extension project.
 
 ## Chrome Extension Project Setup Script 🌐🔧
 
