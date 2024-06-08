@@ -48,7 +48,7 @@ element-copier/
     Open a PowerShell terminal and execute the script to create the folder structure:
 
     ```powershell
-    ./setup-chrome-extension.ps1
+    ./setup_chrome_extension.ps1
     ```
 
     The script will create the `element-copier` directory with all the necessary files and folders for your Chrome extension project.
